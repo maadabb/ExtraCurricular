@@ -1,0 +1,10 @@
+Arguments: [world.txt, log.txt, 12345]
+#####
+#M..#
+#...#
+#..H#
+#####
+NAME 	S	H	STATE	INFO
+Mons(1)	M	10	ALIVE	SWORD
+Hero(2)	H	10	ALIVE	3	1
+

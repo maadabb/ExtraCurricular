@@ -25,3 +25,17 @@ for item in mystocks:
 
 with open('stockdata.json','w') as f:
     json.dump(stockdata, f)
+
+df = pd.read_json('stockdata.json')
+
+
+df['price'] = pd.to_numeric(df['price'], errors='coerce')
+df['change'] = pd.to_numeric(df['change'], errors='coerce')
+
+print(df.describe())
+
+plt.hist(df['price'], bins=10, alpha=0.5)
+plt.title('Distribution of Stock Prices')
+plt.xlabel('Price')
+plt.ylabel('Frequency')
+plt.show()

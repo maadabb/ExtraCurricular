@@ -1,16 +1,3 @@
-# DO NOT EDIT THE FOLLOWING LINES
-# COURSE CPSC 231 FALL 2021
-# INSTRUCTOR: Jonathan Hudson
-# Wi52C3g7ZzkJ7XBcVRHY
-# DO NOT EDIT THE ABOVE LINES
-
-# Tutorial: Marcus
-# ID: 30127307
-# Date: November 23rd 2021
-#Name: Maad Abbasi
-#Tutorial: T05
-#Description: Asks a user for star files and constellation files. If user enters both a valid star and constellation file it draws the stars and constellation on turtle.
-
 import sys
 import os
 import turtle
